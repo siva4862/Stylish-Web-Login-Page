@@ -1,0 +1,169 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Questrial;
+  overflow: hidden;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.welcome-section {
+  background-color: #f5f5f5;
+  padding: 80px;
+  text-align: center;
+}
+
+.welcome-image {
+  position: relative;
+}
+
+.welcome-oval {
+  margin-top: -88px;
+}
+
+.logo-section {
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-section img {
+  height: 28px;
+  width: 28px;
+}
+
+.create-section {
+  padding-left: 144px;
+  padding-right: 144px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.signup-social-media-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.signup-social-media-buttons button {
+  height: 48px;
+  border: none;
+  border-radius: 28px;
+  font-size: 16px;
+}
+
+.google-btn {
+  background-color: #f9dada;
+  color: red;
+}
+
+.fb-btn {
+  background-color: #e7ebff;
+  color: #5266c6;
+}
+
+.email-instruction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.apple-btn {
+  background-color: #dcdcdc;
+  color: #696969;
+}
+
+.google-btn,
+.fb-btn,
+.apple-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.aline,
+.bline {
+  border-bottom: solid silver 2px;
+  width: 20%;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  gap: 8px;
+}
+
+.Email {
+  align-self: flex-start;
+}
+
+.email-field,
+.submit-btn {
+  height: 44px;
+  border: none;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #9acd32;
+  color: white;
+  font-size: 16px;
+}
+
+.email-field {
+  background-color: #f5f5f5;
+}
+
+.tcmsg {
+  line-height: 24px;
+  color: #696969;
+  font-size: 16px;
+}
+
+.new-line {
+  white-space: nowrap;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #9acd32;
+}
+
+.email-signup {
+  color: #696969;
+  font-size: 14px;
+}
+
+input[type="email"]::placeholder {
+  padding: 8px;
+  color: #c0c0c0;
+}
+
+.Login-footer {
+  text-align: center;
+  padding: 48px;
+}
+
+.login-link {
+  color: #9acd32;
+}
+
+.social-icons {
+  height: 20px;
+  width: 20px;
+}
+
+.welcome-hdr,
+.welcome-para,
+.awesome-logo-text {
+  color: #696969;
+}
